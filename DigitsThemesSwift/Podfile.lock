@@ -6,13 +6,15 @@ PODS:
   - TwitterCore (1.12.0)
 
 DEPENDENCIES:
-  - Digits (~> 1.12.0)
-  - Fabric (~> 1.5.5)
-  - TwitterCore (~> 1.12.0)
+  - Digits
+  - Fabric
+  - TwitterCore
 
 SPEC CHECKSUMS:
   Digits: b443a43657c6cbaa6b31fedddc0e8c15133a978f
   Fabric: 190bf1a6eb65f7500de1347d027d2e59a7e53db1
   TwitterCore: a1feadb793512962003ed2bad23e846c8daa4efd
 
-COCOAPODS: 0.38.2
+PODFILE CHECKSUM: cd8212be2ca97fb219f548519e56eee32f774f9d
+
+COCOAPODS: 1.0.1

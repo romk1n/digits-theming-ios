@@ -12,7 +12,7 @@
 		04AE18711B7C01AD00F7AE76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AE186F1B7C01AD00F7AE76 /* Main.storyboard */; };
 		04AE18731B7C01AD00F7AE76 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AE18721B7C01AD00F7AE76 /* Images.xcassets */; };
 		04AE18761B7C01AD00F7AE76 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AE18741B7C01AD00F7AE76 /* LaunchScreen.xib */; };
-		B1C9FF2CF7DEB3D7C9A60093 /* libPods-DigitsThemes.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB558E1DFA78C58C41A7EA4D /* libPods-DigitsThemes.a */; };
+		957162A926E3E70960FCB74F /* libPods-DigitsThemes.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 704E7327F67CF29357E603DB /* libPods-DigitsThemes.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,9 +23,9 @@
 		04AE18701B7C01AD00F7AE76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04AE18721B7C01AD00F7AE76 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		04AE18751B7C01AD00F7AE76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		40E57AFE88B4333ED402858B /* Pods-DigitsThemes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigitsThemes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DigitsThemes/Pods-DigitsThemes.debug.xcconfig"; sourceTree = "<group>"; };
-		D48D7A0EB89B643152411C19 /* Pods-DigitsThemes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigitsThemes.release.xcconfig"; path = "Pods/Target Support Files/Pods-DigitsThemes/Pods-DigitsThemes.release.xcconfig"; sourceTree = "<group>"; };
-		FB558E1DFA78C58C41A7EA4D /* libPods-DigitsThemes.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DigitsThemes.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17D61B8706913C401D43B897 /* Pods-DigitsThemes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigitsThemes.release.xcconfig"; path = "Pods/Target Support Files/Pods-DigitsThemes/Pods-DigitsThemes.release.xcconfig"; sourceTree = "<group>"; };
+		704E7327F67CF29357E603DB /* libPods-DigitsThemes.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DigitsThemes.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDEB782EE274F9F2972CF6B5 /* Pods-DigitsThemes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigitsThemes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DigitsThemes/Pods-DigitsThemes.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,7 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1C9FF2CF7DEB3D7C9A60093 /* libPods-DigitsThemes.a in Frameworks */,
+				957162A926E3E70960FCB74F /* libPods-DigitsThemes.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,8 +45,8 @@
 			children = (
 				04AE18681B7C01AD00F7AE76 /* DigitsThemes */,
 				04AE18671B7C01AD00F7AE76 /* Products */,
-				BDAB961FDCE7C9D6724FD5E2 /* Pods */,
-				C72B697A48D68C6528D6FFD5 /* Frameworks */,
+				126BD3336EE6C199FC9DD532 /* Pods */,
+				29A507E93CE78CEACE33B77C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,19 +79,19 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		BDAB961FDCE7C9D6724FD5E2 /* Pods */ = {
+		126BD3336EE6C199FC9DD532 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				40E57AFE88B4333ED402858B /* Pods-DigitsThemes.debug.xcconfig */,
-				D48D7A0EB89B643152411C19 /* Pods-DigitsThemes.release.xcconfig */,
+				BDEB782EE274F9F2972CF6B5 /* Pods-DigitsThemes.debug.xcconfig */,
+				17D61B8706913C401D43B897 /* Pods-DigitsThemes.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		C72B697A48D68C6528D6FFD5 /* Frameworks */ = {
+		29A507E93CE78CEACE33B77C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FB558E1DFA78C58C41A7EA4D /* libPods-DigitsThemes.a */,
+				704E7327F67CF29357E603DB /* libPods-DigitsThemes.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -103,11 +103,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04AE18851B7C01AD00F7AE76 /* Build configuration list for PBXNativeTarget "DigitsThemes" */;
 			buildPhases = (
-				40759682EA621B8B5BF06853 /* Check Pods Manifest.lock */,
+				575B50F36253D8EAAF84E58B /* [CP] Check Pods Manifest.lock */,
 				04AE18621B7C01AD00F7AE76 /* Sources */,
 				04AE18631B7C01AD00F7AE76 /* Frameworks */,
 				04AE18641B7C01AD00F7AE76 /* Resources */,
-				AFF5EEC2EC3E1036A1C8897B /* Copy Pods Resources */,
+				82A58F8D87E5009AAB8EC6F6 /* [CP] Embed Pods Frameworks */,
+				62EBAE4AC8FE84D22A64578F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -165,14 +166,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		40759682EA621B8B5BF06853 /* Check Pods Manifest.lock */ = {
+		575B50F36253D8EAAF84E58B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -180,19 +181,34 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		AFF5EEC2EC3E1036A1C8897B /* Copy Pods Resources */ = {
+		62EBAE4AC8FE84D22A64578F /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DigitsThemes/Pods-DigitsThemes-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82A58F8D87E5009AAB8EC6F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DigitsThemes/Pods-DigitsThemes-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -313,25 +329,27 @@
 		};
 		04AE18861B7C01AD00F7AE76 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 40E57AFE88B4333ED402858B /* Pods-DigitsThemes.debug.xcconfig */;
+			baseConfigurationReference = BDEB782EE274F9F2972CF6B5 /* Pods-DigitsThemes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DigitsThemes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.fabric.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
 		04AE18871B7C01AD00F7AE76 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D48D7A0EB89B643152411C19 /* Pods-DigitsThemes.release.xcconfig */;
+			baseConfigurationReference = 17D61B8706913C401D43B897 /* Pods-DigitsThemes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DigitsThemes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.fabric.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};

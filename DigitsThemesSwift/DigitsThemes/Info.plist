@@ -36,5 +36,24 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    <key>Fabric</key>
+    <dict>
+        <key>APIKey</key>
+        <string>hello</string>
+        <key>Kits</key>
+        <array>
+            <dict>
+                <key>KitInfo</key>
+                <dict>
+                    <key>consumerKey</key>
+                    <string>hello</string>
+                    <key>consumerSecret</key>
+                    <string>hello</string>
+                </dict>
+                <key>KitName</key>
+                <string>Digits</string>
+            </dict>
+        </array>
+    </dict>
 </dict>
 </plist>
